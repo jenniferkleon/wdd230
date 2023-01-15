@@ -1,0 +1,89 @@
+body{
+    display: block;
+    width: 100%;
+    height: auto;
+    line-height: 1.5;
+    background-color: white;
+  
+}
+
+header,footer{
+    font-size: 1rem;
+    display:block;
+    background-color: #2e2e2f;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4 {
+    font-family:'Passion One', cursive;
+    font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3{
+    background-color: #2e2e2f;
+    color: white;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+section{
+    font-size: 1.0rem;
+    background-color: grey;
+    color: black;
+    border: solid black 1px;
+    border-radius: 10px;
+    max-width: 100%;
+    height:auto
+}
+section a{
+    padding-left: 10px;
+    font-family: 'Passion One', cursive;
+    font-weight: 300;
+    color: white;
+  
+  
+
+}
+.card-ormat{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section h4{
+    color: white;
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 1.3em;
+
+}
+section img{
+    width: 100%;
+    padding-top: 20px;
+}
+p{
+    padding: 10px;
+    font-family: 'Arvo', serif;
+    color: white;
+    font-weight: 300;
+   
+
+
+}
+footer h4{
+    color: white;
+    font-weight: 300;
+}
