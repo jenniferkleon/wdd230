@@ -1,5 +1,5 @@
 
     let lastupdated = document.lastModified;
-    document.getElementById("lastupdated").innerHTML= lastupdated;
+    document.getElementById("last-updated").innerHTML= lastupdated;
     let copyrightyear = document.querySelector("#copyright");
-copyrightyear.innerHTML = `© ${new Date().getFullYear()} | Jennifer K Leon | Nevada`;
+copyrightyear.innerHTML = `© ${new Date().getFullYear()} | Jennifer K. Leon | Nevada`;
