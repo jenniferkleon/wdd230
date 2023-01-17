@@ -1,2 +1,2 @@
 let lastupdated = document.lastModified;
-    document.getElementById("lastupdated").innerHTML= lastupdated;
+    document.getElementById("last-updated").innerHTML= lastupdated;
