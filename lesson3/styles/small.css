@@ -1,0 +1,141 @@
+body{
+    
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 2em;
+    background-color:#f0f6d0;
+}
+
+.content {
+    max-width: 750px; 
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+   
+}
+
+header, footer {
+  
+    background-color: #388045;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li {
+    flex: 1 1 100%;
+}
+
+nav li a {
+    font-family: 'Kalam', cursive;
+    display: block;
+    color: #311d16;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+}
+nav li a:hover {
+    background-color: #388045;
+    color:white;
+}
+
+h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+ main img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.2em;
+   
+}
+
+  
+
+.primary, .secondary, .accent1, .accent2 {
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.heading, .navigation, .paragraph {
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+
+
+.color-palette .colors {
+    margin: 0 auto;
+}
+
+.colors, .font {
+    background-color: white;
+
+}
+.colors .primary {
+    color:#311d16;
+    background-color: #f0f6d0 ;
+    justify-content: space-between;
+}
+
+.colors .secondary {
+    color: white;
+    background-color: #388045 ;
+    justify-content: space-between;
+}
+
+.colors .accent1 {
+    color: white;
+    background-color: #311d16 ;
+    justify-content: space-between;
+}
+
+.colors .accent2 {
+    color: white;
+    background-color: #6d852d ;
+    justify-content: space-between;
+}
+
+.typography .font {
+    margin: 0 auto;
+}
+.font  .heading {
+     font-family: 'Oswald', sans-serif;
+     font-size: 1.5em;
+}
+
+.font  .navigation {
+    font-family: 'Kalam', cursive;
+    font-size: 1.5em;
+}
+
+.font .paragraph {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.2em;
+}
