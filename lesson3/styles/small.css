@@ -31,8 +31,7 @@ nav {
     font-size: 1rem;
 }
 .active {
-    background-color: #388045;
-    color: white;
+    text-decoration: underline #6D852D
 
 }
 nav ul {
