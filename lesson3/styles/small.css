@@ -98,7 +98,9 @@ p {
     
 }
 
-
+.color-palette p {
+    text-align: center;
+}
 .color-palette .colors {
     margin: 0 auto;
 }
