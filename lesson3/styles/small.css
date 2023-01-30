@@ -20,6 +20,7 @@ header, footer {
   
     background-color: #388045;
     font-family: 'Unbounded', cursive;
+    max-width: 100%;
     color: white;
     margin: 0 auto;
     line-height: 1.5;
